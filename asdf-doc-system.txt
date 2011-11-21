@@ -1,0 +1,21 @@
+
+asdf -> general system build validation and documentation
+
+1. use documentation tools to generate docs for
+ the amqp operator subset
+
+2. implement git, svn retrieval
+
+3. implemented system build w/ transcript
+
+4. implement document generation from a system instance
+ a. definition documentation pr file
+ b. .dot system diagram
+ c. per function call diagram
+
+5. implement html/md composite document generation 
+
+6. implement request interface
+ a. http request form
+ b. abstract request instance
+ c. response document with toc and pointers to individual documents
