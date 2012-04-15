@@ -201,7 +201,6 @@
 
 (defgeneric setf.documentation:encode-documentation-as (subject destination form &rest args)
   (:documentation "Encode the subject's documentation in the given form.")
-  (declare (dynamic-extent args))
 
   (:method ((subject t) (destination pathname) (form t) &rest args)
     (ensure-directories-exist destination)
